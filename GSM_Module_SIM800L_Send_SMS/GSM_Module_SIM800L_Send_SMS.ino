@@ -19,9 +19,9 @@ void setup()
 
   mySerial.println("AT+CMGF=1"); // Configuring TEXT mode
   updateSerial();
-  mySerial.println("AT+CMGS=\"+ZZxxxxxxxxxx\"");//change ZZ with country code and xxxxxxxxxxx with phone number to sms
+  mySerial.println("AT+CMGS=\"+94769043517\"");//change ZZ with country code and xxxxxxxxxxx with phone number to sms
   updateSerial();
-  mySerial.print("Mercury LABS"); //text content
+  mySerial.print("Hi Pramuditha"); //text content
   updateSerial();
   mySerial.write(26);
 }
